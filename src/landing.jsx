@@ -63,7 +63,7 @@ function Items() {
         <div className='w-96'>
           <a href='/registro'><h1 className='text-5xl text-white font-serif underline'> ¡Empieza Ya!</h1></a>
           <br/>
-          <a href='/planes'><h3 className='text-3xl text-white font-serif underline'>O Consulta nuestros precios</h3></a>
+          <a href='/planes'><h3 className='text-3xl text-white font-serif underline hover:bg-gray-50 '>O Consulta nuestros precios</h3></a>
         </div>
       </Html>                                               
     </Float>
@@ -74,6 +74,7 @@ function Items() {
 function Landing() {
     return (
       <>
+      
       <Canvas camera={{ position: [0, 0, 10] }}>
         <Suspense fallback={null}>
         <color attach="background" args={['black']} />

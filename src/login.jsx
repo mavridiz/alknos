@@ -1,7 +1,10 @@
 import Form from "./components/Form";
+import NavBar from './Navbar'
 
 const login= () => (
 
+    <>
+    <NavBar/>
     <div className="flex w-full h-screen">
     <div className="w-full flex items-center justify-center lg:w-1/2">
         <Form/>
@@ -11,6 +14,7 @@ const login= () => (
         <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg"/>
     </div>
     </div>
+    </>
     );
 
 export default login;

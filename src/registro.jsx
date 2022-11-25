@@ -1,8 +1,12 @@
 import FormRe from "./components/FormRe";
+import NavBar from './Navbar'
 
 function Registro() {
   return (
+    <>
+    <NavBar/>
     <div className="flex w-full bg-white h-screen">
+      
     <div className="w-full flex items-center justify-center lg:w-1/2">
         <FormRe/>
     </div>
@@ -11,6 +15,7 @@ function Registro() {
         <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg"/>
     </div>
     </div>
+    </>
   );
 }
 
