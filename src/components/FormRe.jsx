@@ -94,7 +94,7 @@ export default function FormRe({
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="text-sm">
-                    <a href="#" className="font-medium text-green-600 hover:text-green-500">
+                    <a href="/login" className="font-medium text-green-600 hover:text-green-500">
                       Iniciar Sesión
                     </a>
                   </div>

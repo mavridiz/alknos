@@ -62,7 +62,7 @@ export default function Form({
                   </div>
 
                   <div className="text-sm">
-                    <a href="#" className="font-medium text-green-600 hover:text-green-500">
+                    <a href="." className="font-medium text-green-600 hover:text-green-500">
                       Olvidaste tu contraseña?
                     </a>
                   </div>

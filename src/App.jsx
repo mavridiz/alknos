@@ -6,6 +6,8 @@ import Contactanos from './Contactanos'
 import Planes from './Planes'
 import Registro from './registro'
 import Login from './login'
+import Calculadora from './calculadora'
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/planes" element={<Planes />} />
           <Route path="/registro" element={<Registro />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/contactanos" element={<Contactanos />} />
+          <Route path="/calculadora" element={<Calculadora />} />
         </Routes>
     </Router>
   );
